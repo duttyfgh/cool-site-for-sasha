@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cool-site-for-sasha/static/css/main.d9285044.css",
+    "main.js": "/cool-site-for-sasha/static/js/main.97d410c3.js",
+    "static/js/787.ca82370a.chunk.js": "/cool-site-for-sasha/static/js/787.ca82370a.chunk.js",
+    "index.html": "/cool-site-for-sasha/index.html",
+    "main.d9285044.css.map": "/cool-site-for-sasha/static/css/main.d9285044.css.map",
+    "main.97d410c3.js.map": "/cool-site-for-sasha/static/js/main.97d410c3.js.map",
+    "787.ca82370a.chunk.js.map": "/cool-site-for-sasha/static/js/787.ca82370a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9285044.css",
+    "static/js/main.97d410c3.js"
+  ]
+}
