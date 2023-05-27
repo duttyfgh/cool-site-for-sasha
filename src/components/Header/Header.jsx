@@ -8,6 +8,7 @@ import HeaderForLT from './headerForLT'
 const HeaderForPC = (props) => {
   return (
     <header className={classes.header}>
+      <div className={classes.redLine}></div>
       <NavLink to='/cool-site-for-sasha'><img src={logo} /></NavLink>
 
       <div className={classes.vigets}>

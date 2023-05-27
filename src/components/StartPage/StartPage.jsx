@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import NewsForMainPage from '../news/newsForMainPage/newsForMainPage'
 import classes from './sartPage.module.css'
 import StartPagePC from './StartPagePC'
 
@@ -14,15 +15,15 @@ const StartPageLTAndTablet = () => {
             </div>
 
             <div className={classes.actualFirst}>
-                <img src="https://cherkassy-sport.com/wp-content/uploads/2023/05/img_20230524_145724-1.jpg" alt="..." />
+                <img src="https://cherkassy-sport.com/wp-content/uploads/2023/05/lnz.jpg" alt="..." />
                 <div className={classes.blockText}>
-                    <span>У Черкасах відбувся відкритий чемпіонат міста зі спортивної акробатики</span>
+                    <span>Підсумкова турнірна таблиця Чемпіонату України з футболу (I ліга, група «Чемпіонська»)</span>
                     <span>26 травня, 2023</span>
                 </div>
             </div>
 
             <div className={classes.actualFirst}>
-                <img src="https://cherkassy-sport.com/wp-content/uploads/2023/05/img_20230524_145724-1.jpg" alt="..." />
+                <img src="https://cherkassy-sport.com/wp-content/uploads/2022/11/priama.jpg" alt="..." />
                 <div className={classes.blockText}>
                     <span>У Черкасах відбувся відкритий чемпіонат міста зі спортивної акробатики</span>
                     <span>26 травня, 2023</span>
@@ -47,21 +48,22 @@ const StartPage = () => {
         }
     }, [])
 
-    let headerComponent
+    let Component
 
     switch (true) {
         case screenWidth > 1600:
-            headerComponent = <StartPagePC />
+            Component = <StartPagePC />
             break
 
         default:
-            headerComponent = <StartPageLTAndTablet />
+            Component = <StartPageLTAndTablet />
             break
     }
 
     return (
-        <div>
-            {headerComponent}
+        <div className={classes.startPage}>
+            {Component}
+            <NewsForMainPage />
         </div>
     )
 }

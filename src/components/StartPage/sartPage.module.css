@@ -38,9 +38,16 @@
     cursor: pointer;
 }
 
-.blockText span{
+.blockText span {
     color: white;
     font-size: 18px;
-    
+
 }
 
+@media only screen and (max-width: 480px) {
+    .blockText span {
+        color: white;
+        font-size: 13px;
+
+    }
+}
