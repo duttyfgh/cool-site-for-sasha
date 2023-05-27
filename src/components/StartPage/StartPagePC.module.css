@@ -1,0 +1,69 @@
+.actualNews {
+    width: 1315px;
+    height: 470px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.litleBlock {
+    display: flex;
+    flex-direction: column;
+    height: 460px;
+
+}
+
+.litleItem {
+    margin-top: 10px;
+    width: 545px;
+    height: 260px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.litleBlock img {
+    height: 330px;
+    width: 100%;
+}
+
+.bigBlock img:hover,
+.litleBlock img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.bigBlock {
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bigBlock img,
+.litleBlock img {
+    transition: transform 0.6s ease
+}
+
+.blockText {
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10px;
+    padding: 10px;
+    margin: 15px;
+    background-color: #00000024;
+    cursor: pointer;
+}
+
+.bigBlock .blockText span {
+    font-size: 25px;
+    text-align: left;
+    color: aliceblue;
+}
+
+.litleBlock .blockText span {
+    font-size: 18px;
+    text-align: left;
+    color: aliceblue;
+}

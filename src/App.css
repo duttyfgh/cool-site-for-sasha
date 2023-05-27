@@ -1,21 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 * {
     color: #2c3917;
+    font-family: 'Oswald', sans-serif;
 }
 
 body {
     background-color: #cf3e3e;
+    scrollbar-color: #9dce4e #cf3e3e;
+
+}
+
+/* Ширина и стиль полосы прокрутки */
+body::-webkit-scrollbar {
+    width: 12px;
+    /* Измените значение по своему вкусу */
+}
+
+/* Фон полосы прокрутки */
+body::-webkit-scrollbar-track {
+    background-color: #cf3e3e;
+}
+
+/* Цвет самой прокрутки */
+body::-webkit-scrollbar-thumb {
+    background-color: #9dce4e;
 }
 
 .main {
     display: grid;
     grid-template-areas:
         'header header '
-        'content content'
-        'nav nav';
+        'content content';
     grid-template-rows: 60px 1fr;
     grid-template-columns: 1fr;
     background-color: #cf3e3e;
-    height: 100vh;
+    min-height: 100vh;
+    overflow: hidden;
     width: 100%;
 }
 

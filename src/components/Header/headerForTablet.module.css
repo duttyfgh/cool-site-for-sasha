@@ -36,8 +36,9 @@
     right: 0;
     top: 121px;
     width: 200px;
-    height: 272px;
 
+
+    z-index: 9999999;
     background-color: #9dce4e;
 
 }
@@ -63,4 +64,8 @@
     color: #2c3917;
     background-color: #709632;
     transition: 0.3s;
-}  
+}
+
+.burger span {
+    margin-right: 10px;
+}

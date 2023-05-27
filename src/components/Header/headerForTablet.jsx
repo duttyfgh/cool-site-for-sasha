@@ -17,8 +17,10 @@ const HeaderForTablet = () => {
         <header className={classes.header}>
             <NavLink to='/cool-site-for-sasha'><img src={logo} /></NavLink>
             {dropPonelIsActive
-                ? <div className={classes.burger}><i onClick={unActiveteDropPonel} className={["fa-solid fa-xmark"]}></i></div>
-                : <div className={classes.burger}><i onClick={activeteDropPonel} className={["fa-solid fa-bars"]}></i></div>
+                ? <div className={classes.burger}><span>МЕНЮ</span>
+                    <i onClick={unActiveteDropPonel} className={["fa-solid fa-xmark"]}></i></div>
+                : <div className={classes.burger}><span>МЕНЮ</span>
+                    <i onClick={activeteDropPonel} className={["fa-solid fa-bars"]}></i></div>
             }
 
             {dropPonelIsActive && <div className={classes.dropPonel}>
