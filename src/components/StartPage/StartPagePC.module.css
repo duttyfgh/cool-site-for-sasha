@@ -1,9 +1,10 @@
 .actualNews {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     height: 470px;
     margin-top: 40px;
     display: flex;
+    margin-left: 10px;
 }
 
 .litleBlock {
@@ -45,6 +46,10 @@
     transition: transform 0.6s ease
 }
 
+.blockText * {
+    color: aliceblue;
+}
+
 .blockText {
     pointer-events: none;
     display: flex;
@@ -60,11 +65,34 @@
 .bigBlock .blockText span {
     font-size: 25px;
     text-align: left;
-    color: aliceblue;
 }
 
 .litleBlock .blockText span {
     font-size: 18px;
     text-align: left;
-    color: aliceblue;
+}
+
+.separateBlock {
+    height: 450px;
+    width: 320px;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.separateBlock img {
+    height: 450px;
+    transition: transform 0.6s ease
+
+}
+
+.separateBlock .blockText {
+    bottom: 10px;
+}
+
+.separateBlock img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }

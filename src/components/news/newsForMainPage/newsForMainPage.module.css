@@ -34,7 +34,6 @@
     display: flex;
 
     margin: 0 10px;
-    padding-left: 10px;
     margin-bottom: 20px;
     margin-top: 10px;
 
@@ -97,7 +96,7 @@
     grid-auto-rows: minmax(0, 1fr);
     gap: 10px;
 
-    width: 900px;
+    width: 1200px;
 }
 
 .newsItem {
@@ -107,8 +106,8 @@
 }
 
 .newsItem img {
-    height: 120px;
-    max-width: 180px;
+    height: 180px;
+    max-width: 280px;
    
 }
 

@@ -31,6 +31,16 @@ const StartPagePC = () => {
         </div>
 
       </div>
+
+      <div className={classes.separateBlock}>
+        <div className={classes.item}>
+          <img src="https://cherkassy-sport.com/wp-content/uploads/2023/05/studentka_cherkaskoho_.jpg" alt="..." />
+          <div className={classes.blockText}>
+            <span>Відео гри Чемпіонату Черкащини з футболу «Карбон» – «Профіспорт»</span>
+            <span>27 травня, 2023</span>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

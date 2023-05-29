@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 140px;
+
+    background-color: #9dce4e;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.footer span a {
+    color: #4d703b;
+    text-decoration: none;
+}
+
+.footer span a:hover {
+    text-decoration: underline;
+}
+
+.line {
+    margin: 5px;
+    width: 400px;
+    height: .5px;
+    background-color: #556a33;
+}
+
+.autorSite {
+    margin-top: 10px;
+    font-size: 15px;    
+}
+
+.autorSite i {
+    cursor: pointer;
+}
