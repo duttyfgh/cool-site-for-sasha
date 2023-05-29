@@ -42,3 +42,9 @@
 .version {
     
 }
+
+@media (max-width: 330px) {
+    .footer {
+        font-size: 14px;
+    }
+}

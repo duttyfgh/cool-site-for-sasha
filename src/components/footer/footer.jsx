@@ -1,10 +1,9 @@
-
 import classes from './footer.module.css'
 
 const Footer = () => {
     return (
         <footer className={classes.footer}>
-            <p>Інформаційний портал "Дитячий спорт Черкас",</p>
+            <p>Інформаційний портал "Дитячий спорт Черкащини",</p>
             <span>© 2023 всі права захищені <a href="https://creativecommons.org/licenses/by/4.0/deed.uk">Creative Commons BY 4.0</a>
             </span>
             <div className={classes.line}></div>
@@ -12,7 +11,7 @@ const Footer = () => {
                 <i className={["fa-brands fa-instagram"]}></i></a>
             </div>
             <div>
-                0.7v
+                0.8v
             </div>
         </footer>
     )

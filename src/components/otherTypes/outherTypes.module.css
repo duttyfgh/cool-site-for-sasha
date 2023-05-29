@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.outherTypesNews * {
+    color: aliceblue;
+}
+
+.outherTypesNews {
+    margin-top: 50px;
+}
+
+.lastActualNews {
+    display: flex;
+
+    margin: 0 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.imgContainer {
+
+    width: 200px;
+    overflow: hidden;
+}
+
+.lastActualNews img {
+    height: 250px;
+
+}
+
+.textBlock {
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    width: 1100px;
+
+}
+
+.textBlock b {
+    font-size: 26px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+
+.textBlock span,
+.textBlock p {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.textBlock span,
+.textBlock p {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.readMore {
+    width: 150px;
+    min-height: 50px;
+    border-radius: 5px;
+    margin-left: 10px;
+
+    background-color: #9dce4e;
+    color: #496121;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.093);
+
+    font-size: 22px;
+    cursor: pointer;
+
+}
+
+.readMore:hover {
+    background-color: #90bf45;
+}
+
+.inputShell {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #cf3e3e;
+    height: 60px;
+    margin: 20px;
+
+    border-radius: 14px;
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.445);
+}
+
+.inputShell input {
+    width: 96%;
+    height: 50px;
+    margin-left: 10px;
+    background: transparent;
+    font-size: 22px;
+}
+
+.inputShell input::placeholder {
+    color: #9c2727;
+}
+
+.inputShell i {
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.imgShell {
+    width: 340px;
+    overflow: hidden;
+}
+
+/*media queris*/
+
+@media (max-width: 1502px) {
+    .textBlock b {
+        font-size: 20px;
+    }
+
+    .textBlock p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .lastActualNews {
+        flex-direction: column;
+
+
+    }
+
+    .textBlock {
+        width: 800px;
+
+    }
+
+    .imgShell img {
+        height: 440px;
+    }
+
+    .imgShell {
+        display: flex;
+        justify-content: safe;
+        width: 100%;
+    }
+
+    .textBlock {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 816px) {
+    .textBlock b {
+        margin-bottom: 10px;
+        font-size: 18px;
+        margin-left: 0;
+
+    }
+
+    .textBlock p,
+    .textBlock span {
+        margin-bottom: 10px;
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .imgShell img {
+        height: 300px;
+    }
+
+    .readMore {
+        width: 140px;
+        min-height: 35px;
+        font-size: 20px;
+        margin-left: 0;
+
+    }
+}

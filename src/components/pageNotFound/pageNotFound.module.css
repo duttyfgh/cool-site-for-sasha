@@ -28,7 +28,6 @@
 
 .pageNotFound i {
     font-size: 25px;
-
 }
 
 .pageNotFound p {
@@ -42,4 +41,15 @@
 .imgShell {
     height: 520px;
     overflow: hidden;
+}
+
+@media (max-width: 440px) {
+    .pageNotFound * {
+        font-size: 20px;
+    }
+
+    .pageNotFound a,
+    .pageNotFound i {
+        font-size: 20px;
+    }
 }

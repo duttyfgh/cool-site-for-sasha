@@ -6,8 +6,8 @@ const PageNotFound = () => {
     return (
         <div className={classes.pageNotFound}>
             <div className={classes.imgShell}><img src={error404} alt="404 error" /></div>
-            <p>Упсс.. Нажаль такої сторінки не існуе.</p>
-            <NavLink to={'/cool-site-for-sasha'}>Перейти на головну <i class="fa-solid fa-house"></i></NavLink>
+            <p>Упсс.. На жаль, такої сторінки не існує.</p>
+            <NavLink to={'/cool-site-for-sasha'}>Перейти на головну <i className={["fa-solid fa-house"]}></i></NavLink>
         </div>
     )
 }

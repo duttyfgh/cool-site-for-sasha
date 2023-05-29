@@ -18,11 +18,11 @@ const HeaderForLT = () => {
                     НОВИНИ
                 </NavLink>
 
-                <NavLink className={navData => navData.isActive ? classes.active : classes.vigetsItem} to={'/footbol'}>
+                <NavLink className={navData => navData.isActive ? classes.active : classes.vigetsItem} to={'/football'}>
                     ФУТБОЛ
                 </NavLink>
 
-                <NavLink className={navData => navData.isActive ? classes.active : classes.vigetsItem} to={'/basketbol'}>
+                <NavLink className={navData => navData.isActive ? classes.active : classes.vigetsItem} to={'/basketball'}>
                     БАСКЕТБОЛ
                 </NavLink>
 
