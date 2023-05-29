@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cool-site-for-sasha/static/css/main.b76ae7bd.css",
-    "main.js": "/cool-site-for-sasha/static/js/main.2002adff.js",
+    "main.css": "/cool-site-for-sasha/static/css/main.ab69969e.css",
+    "main.js": "/cool-site-for-sasha/static/js/main.dc4be98d.js",
     "static/js/787.ca82370a.chunk.js": "/cool-site-for-sasha/static/js/787.ca82370a.chunk.js",
     "static/media/big-logo.png": "/cool-site-for-sasha/static/media/big-logo.55c8dc68d8872fd4b6eb.png",
     "index.html": "/cool-site-for-sasha/index.html",
-    "main.b76ae7bd.css.map": "/cool-site-for-sasha/static/css/main.b76ae7bd.css.map",
-    "main.2002adff.js.map": "/cool-site-for-sasha/static/js/main.2002adff.js.map",
+    "main.ab69969e.css.map": "/cool-site-for-sasha/static/css/main.ab69969e.css.map",
+    "main.dc4be98d.js.map": "/cool-site-for-sasha/static/js/main.dc4be98d.js.map",
     "787.ca82370a.chunk.js.map": "/cool-site-for-sasha/static/js/787.ca82370a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b76ae7bd.css",
-    "static/js/main.2002adff.js"
+    "static/css/main.ab69969e.css",
+    "static/js/main.dc4be98d.js"
   ]
 }
