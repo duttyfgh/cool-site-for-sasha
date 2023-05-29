@@ -27,12 +27,14 @@
 
 .lastActualNews img {
     height: 250px;
+
 }
 
 .textBlock {
     display: flex;
     flex-direction: column;
     height: 220px;
+    width: 1100px;
 
 }
 
@@ -57,7 +59,7 @@
 
 .readMore {
     width: 150px;
-    height: 50px;
+    min-height: 50px;
     border-radius: 5px;
     margin-left: 10px;
 
@@ -72,49 +74,6 @@
 
 .readMore:hover {
     background-color: #90bf45;
-}
-
-/* outherNews styles:*/
-
-.otherNews {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: minmax(0, 1fr);
-    gap: 10px;
-
-    width: 900px;
-}
-
-.newsItem {
-    display: flex;
-    align-items: start;
-    margin-left: 10px;
-}
-
-.newsItem img {
-    height: 120px;
-}
-
-.newsDesacitpion {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-
-}
-
-.newsDesacitpion b {
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.newsDesacitpion p {
-    font-family: 'Montserrat', sans-serif;
-
-}
-
-.newsDesacitpion p,
-.newsDesacitpion b {
-    margin: 10px;
 }
 
 .inputShell {
@@ -146,4 +105,73 @@
     margin-right: 20px;
     font-size: 22px;
     cursor: pointer;
+}
+
+.imgShell {
+    width: 340px;
+    overflow: hidden;
+}
+
+/*media queris*/
+
+@media (max-width: 1502px) {
+    .textBlock b {
+        font-size: 20px;
+    }
+
+    .textBlock p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .lastActualNews {
+        flex-direction: column;
+
+
+    }
+
+    .textBlock {
+        width: 800px;
+
+    }
+
+    .imgShell img {
+        height: 440px;
+    }
+
+    .imgShell {
+        display: flex;
+        justify-content: safe;
+        width: 100%;
+    }
+
+    .textBlock {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 816px) {
+    .textBlock b {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .textBlock p,
+    .textBlock span {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .imgShell img {
+        height: 300px;
+    }
+
+    .readMore {
+        width: 140px;
+        min-height: 35px;
+        font-size: 20px;
+    }
 }

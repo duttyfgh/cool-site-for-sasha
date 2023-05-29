@@ -5,6 +5,8 @@ import { NavLink } from 'react-router-dom'
 const HeaderForLT = () => {
     return (
         <header className={classes.header}>
+            <div className={classes.redLine}></div>
+
             <NavLink to='/cool-site-for-sasha'><img src={logo} /></NavLink>
 
             <div className={classes.vigets}>

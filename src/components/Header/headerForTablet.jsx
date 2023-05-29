@@ -15,6 +15,7 @@ const HeaderForTablet = () => {
 
     return (
         <header className={classes.header}>
+      <div className={classes.redLine}></div>
             <NavLink to='/cool-site-for-sasha'><img src={logo} /></NavLink>
             {dropPonelIsActive
                 ? <div className={classes.burger}><span>МЕНЮ</span>
