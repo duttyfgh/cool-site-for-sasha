@@ -9,7 +9,11 @@ const Footer = () => {
             </span>
             <div className={classes.line}></div>
             <div className={classes.autorSite}>Цей сайт створено <a href="https://www.instagram.com/dutyfgh/">
-                <i className={["fa-brands fa-instagram"]}></i></a></div>
+                <i className={["fa-brands fa-instagram"]}></i></a>
+            </div>
+            <div>
+                0.7v
+            </div>
         </footer>
     )
 }

@@ -5,6 +5,7 @@ import './App.css';
 import Footer from './components/footer/footer';
 import Header from './components/Header/Header';
 import News from './components/news/news/news';
+import PageNotFound from './components/pageNotFound/pageNotFound';
 import StartPage from './components/StartPage/StartPage';
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
               <Route path='/cool-site-for-sasha' element={<StartPage />} />
               <Route path='/news' element={<News />} />
 
-              <Route path='*' element={<div>404 PAGE NOT FOUND</div>} />
+              <Route path='*' element={<PageNotFound />} />
             </Routes>
           </Suspense>
           <Footer />

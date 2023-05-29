@@ -1,0 +1,45 @@
+.pageNotFound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 20px;
+}
+
+.pageNotFound * {
+    color: #2c3917;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.pageNotFound a {
+    background-color: #9dce4e;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    transition: .1s ease-in-out;
+}
+
+.pageNotFound a:hover {
+    background-color: #91bf47;
+}
+
+.pageNotFound i {
+    font-size: 25px;
+
+}
+
+.pageNotFound p {
+    color: aliceblue;
+}
+
+.imgShell img {
+    height: 550px;
+}
+
+.imgShell {
+    height: 520px;
+    overflow: hidden;
+}
